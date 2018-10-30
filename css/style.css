@@ -1,9 +1,11 @@
 html {
     height: 100%;
+    
 }
 
 body {
     height: 100%;
+    background: black;
 }
 .a {
     text-decoration: none;
@@ -11,18 +13,21 @@ body {
 .navbar{
     display:flex;
     justify-content:space-around;
-}
-
+    
 }
 
 h1{
     color:red;
     display:flex;
     justify-content:center;
-    
 }
+
 .main {
     height: 100%;
+    background:url("https://scontent-lga3-1.cdninstagram.com/vp/f5ac847430d0a222b85eb387f432ba2f/5C49EC70/t51.2885-15/e35/42376305_569165956876693_5681711535544980978_n.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 .social-image{
     width: 30px;
@@ -31,4 +36,16 @@ h1{
 .social{
     display:flex;
     justify-content:space-around;
+}
+
+.gallery{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin: 10px;
+    
+}
+.thumbnail-image{
+    width:200px;
+    
 }
