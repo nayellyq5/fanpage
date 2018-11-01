@@ -10,10 +10,15 @@ body {
 .a {
     text-decoration: none;
 }
+
 .navbar{
     display:flex;
     justify-content:space-around;
-    
+    background-color:white;
+}
+
+a:alink{
+    color:red;
 }
 
 h1{
@@ -24,7 +29,7 @@ h1{
 
 .main {
     height: 100%;
-    background:url("https://scontent-lga3-1.cdninstagram.com/vp/f5ac847430d0a222b85eb387f432ba2f/5C49EC70/t51.2885-15/e35/42376305_569165956876693_5681711535544980978_n.jpg");
+    background:url("https://scontent-lga3-1.cdninstagram.com/vp/85ab22e6e812c1c9fa5450900b0e2ca4/5C7B6FDD/t51.2885-15/e35/43914077_486974245119630_4794010652504544547_n.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -43,6 +48,7 @@ h1{
     justify-content:space-around;
     flex-wrap:wrap;
     margin: 10px;
+//    padding: ; //
     
 }
 .thumbnail-image{
