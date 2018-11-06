@@ -5,23 +5,27 @@ html {
 
 body {
     height: 100%;
-    background: black;
+    background:black;
 }
 .a {
-    text-decoration: none;
+    text-decoration:none;
 }
 
 .navbar{
     display:flex;
     justify-content:space-around;
+    padding:10px; 
     background-color:white;
 }
 
-a:alink{
+
+.nav{
     color:red;
+    font-size:20px;
 }
 
 h1{
+    ///////// font-family: "Lobster";
     color:red;
     display:flex;
     justify-content:center;
@@ -33,6 +37,7 @@ h1{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    
 }
 .social-image{
     width: 30px;
@@ -47,11 +52,58 @@ h1{
     display:flex;
     justify-content:space-around;
     flex-wrap:wrap;
-    margin: 10px;
-//    padding: ; //
-    
 }
-.thumbnail-image{
+
+.thumbnail{
     width:200px;
-    
+    height:250px;
+    margin:100px;
+    border:10px solid red;
 }
+
+.thumbnail-image{
+    height:100%;
+    width: 100%;
+}
+
+h2,h3,h4{
+    font-size:45px;
+    color:red;
+}
+
+p{
+    font-size:20px;
+    color:white;
+}
+
+.aboutMain{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.leftPane{
+    width:50%;
+}
+
+.rightPane{
+    background-image: url(https://scontent-lga3-1.cdninstagram.com/vp/f5ac847430d0a222b85eb387f432ba2f/5C49EC70/t51.2885-15/e35/42376305_569165956876693_5681711535544980978_n.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 525px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
