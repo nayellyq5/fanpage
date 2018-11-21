@@ -23,8 +23,9 @@ body {
 }
 
 h1{
-    ///////// font-family: "Lobster";
+font-family: 'Cookie', cursive;
     color:red;
+    font-size: 60px;
     display:flex;
     justify-content:center;
 }
